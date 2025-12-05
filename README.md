@@ -81,7 +81,7 @@ Create a file named .env in the project root:
 SERPER_API_KEY=your_serper_api_key
 GITHUB_TOKEN=your_github_token_with_repo_scope
 
-#AI-powered HR Policy Assistant
+# AI-powered HR Policy Assistant
 built using Python, LangChain, Gradio, and the free Gemini 1.5 Flash API. It loads company policy PDFs, splits them into text chunks, embeds them using MiniLM embeddings, and stores them in a Chroma vector database for fast semantic search. When a user asks a question, the system performs Retrieval-Augmented Generation (RAG) by retrieving relevant policy chunks and passing them along with the user query to the Gemini 2.5 Flash model, ensuring grounded and document-accurate answers. The interface is provided through a simple Gradio chat UI, making it easy for employees to ask questions about leaves, WFH rules, benefits, compliance, and other HR topics.
-#certificate verification
+# certificate verification
 This feature is an automated certificate verification pipeline that extracts and validates information directly from uploaded certificate images. Using OCR and lightweight text parsing, the system reads the candidate’s name, course title, score, ID/roll number, and session details, then compares them against the details claimed by the candidate to detect mismatches or potential fraud. It also interprets the course session (for example, a month–month–year range) to estimate the course end date, compute a configurable validity period, and determine whether the certificate is currently valid. The output is an “employer view” that presents all extracted fields, verification checks, and validity status in a clean, human‑readable format, making it easy for recruiters or institutions to quickly trust—or question—the authenticity of a certificate.
