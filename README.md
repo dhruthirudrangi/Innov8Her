@@ -17,7 +17,7 @@ A powerful document processor that extracts all critical requirements from a JD 
 
 | Extracted Data | Example |
 | :--- | :--- |
-| **Tech Stack & Skills** | Python, AWS, MiniLM |
+| **Tech Stack & Skills** | Python,  MiniLM |
 | **Semantic Vector** | Semantic Embedding (1x384 dimension) |
 | **Metadata** | Seniority Level, Domain, Location |
 
